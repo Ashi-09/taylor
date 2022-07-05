@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Lobster&family=PT+Sans:wght@700&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&family=Neucha&display=swap');
+body{
+    background-color: #110113;
+    background-image: url(img/bg-collage.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: #0b010b;
+    align-items: center;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    align-items: center;
+    padding: 6px;
+} 
+nav ul li{
+    margin: 10px;
+    color: white;
+}
+.container{
+    height: 70vh;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Neucha', cursive;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    background-image: url(img/tay_conc.jpg);
+    background-size: cover;
+    
+}
+h1{
+    background-color:#0b010b;
+    border-radius: 10px;
+    padding: 6px;
+}
+.songitem{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.songitem span{
+    padding: 8px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    background-color: #0b010b;
+    border-radius: 10px;
+}
+span i{
+    cursor: pointer;
+}
+.songitem img{
+    width: 30px;
+}
+.bottom{
+    position: sticky;
+    background-color: #0b010b; 
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.songPlaying{
+    position: absolute;
+    left: 190px;
+    bottom: 25px;
+    font-size: 1.5rem;
+}
+.icons i{
+    padding:4px;
+    cursor: pointer;
+}
+#progressBar{
+    width: 150vh;
+    cursor: pointer;
+    background: linear-gradient(purple);
+}
